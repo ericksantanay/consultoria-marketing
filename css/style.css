@@ -33,7 +33,23 @@
     --paragrafo-do-depoimento: "Vollkorn", serif;
 }
 
-
+/*BODY*/
 body  {
-    font-family: var(--paragrafo-do-depoimento);
+    background-color: var(--fundo);
 }
+
+/*HEADER PARTE DO CABEÇALHO, LOGO LINKS ETC*/
+header {
+    width: 100%;
+    padding: 10px 6%;
+}
+
+/*HEADER NAV*/
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/*HEADER NAV IMG*/
+
