@@ -172,7 +172,7 @@ header #menu-Mobile > ul > li .btn-contato:hover {
 
 /*PARTE DO MAIN, (CORPO)*/
 main {
-    padding: 0px 7%;
+    padding: 0;
 }
 
 
@@ -180,9 +180,51 @@ main {
 main .primeiro-conteudo {
     background-image: linear-gradient(to right,  #7844D2, #7241C8, #431766, #29144D);
     display: flex;
+     padding: 20px;
 } 
 
+/*PARTE DA BREVE INTRODUÇÃO DO TEXTO*/
 main .primeiro-conteudo .container-txt-botao {
     width: 50%;
-    line-height: 30px;
+}
+
+/*TEXTO*/
+main .primeiro-conteudo .container-txt-botao > p {
+    line-height: 35px;
+    color: white;
+    font-family: var(--paragrafo);
+    font-size: 1.5rem;
+    margin: 60px 60px;
+}
+
+/*PARTE DO BOTÃO */
+main .primeiro-conteudo .container-txt-botao > a {
+    padding: 15px;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: var(--botão-fonte);
+    transition: .3s;
+    margin: 25%;
+}
+
+/*PARTE DO BOTÃO HOVER*/
+main .primeiro-conteudo .container-txt-botao > a:hover {
+    background-color: var(--degradê1);
+    color: rgb(255, 255, 255);
+}
+
+
+/*PARTE DO PRIMEIRO CONTEUDO IMG*/
+main .primeiro-conteudo .img {
+    width: 40%;
+    height: auto;
+    padding: 10px;
+}
+
+/*IMAGEM*/
+main .primeiro-conteudo .img > img {
+    height: 550px;
 }
