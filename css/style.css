@@ -358,3 +358,9 @@ main .container-depoimentos > article > .depoimentos {
     text-align: center;
 }
 
+/*DEPOIMENTO IMG*/
+main .container-depoimentos > article > .depoimentos > img {
+    width: 100px;
+    border-radius: 50%;
+}
+
