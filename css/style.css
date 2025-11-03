@@ -330,3 +330,7 @@ main .servicos .container .container-servicos > a:hover {
 }
 
 /*DEPOIMENTOS*/
+main .container-depoimentos {
+    display: flex;
+    background-color: #D9D9D9;
+}
