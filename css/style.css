@@ -351,6 +351,7 @@ main .container-depoimentos > article h1 {
 
 /*PARTE DOS CARDS DO DEPOIMENTO*/
 main .container-depoimentos > article > .depoimentos {
+    max-width: 320px;
     border-radius: 10px;
     padding: 20px;
     background-color: var(--degradê1);
@@ -364,3 +365,22 @@ main .container-depoimentos > article > .depoimentos > img {
     border-radius: 50%;
 }
 
+/*PARTE DOS SPANS*/     
+main .container-depoimentos > article > .depoimentos > span {
+    color: rgb(203, 203, 0);
+}
+
+/*PARTE DO H3*/
+main .container-depoimentos > article > .depoimentos > h3 {
+    color: white;
+    font-family: var(--h2);
+    padding: 20px;
+    
+}
+
+
+/*PARTE DO PARAGRAFO DOS DEPOIMENTOS*/
+main .container-depoimentos > article > .depoimentos > p {
+    color: white;
+    font-family: var(--paragrafo-do-depoimento);
+}
