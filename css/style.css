@@ -462,4 +462,6 @@ footer > p {
 }
 
 /*MEDIA QUERY VERSÃO PARA CELULAR E TELAS MENORES*/
- 
+ @media screen and (max-width: 798px){
+    
+ }
