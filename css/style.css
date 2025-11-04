@@ -438,3 +438,11 @@ footer {
     background-color: white;
     padding: 100px;
 }
+
+/*FOOTER H1*/
+footer .icones h2 {
+    font-family: var(--h2);
+    padding: 10px;
+}
+
+/**/
