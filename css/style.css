@@ -434,5 +434,7 @@ main .container-endereco  article iframe {
 
 /*PARTE DO FOOTER*/
 footer {
-    
+    text-align: center;
+    background-color: white;
+    padding: 100px;
 }
