@@ -439,10 +439,24 @@ footer {
     padding: 100px;
 }
 
+/*FOOTER CONTAINER*/
+footer .icones {
+    margin: 50px;
+}
+
 /*FOOTER H1*/
 footer .icones h2 {
     font-family: var(--h2);
     padding: 10px;
 }
 
-/**/
+/*FOOTER IMG*/
+footer .icones > a > img {
+    padding: 10px;
+    
+}
+
+/*FOOTER PARAGRAFO*/
+footer > p {
+    font-family: var(--paragrafo);
+}
