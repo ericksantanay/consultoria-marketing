@@ -478,40 +478,48 @@ footer > p {
         display: block;
     }
 
-    /*PRIMEIRO CONTEUDO*/
+   
+      /*PRIMEIRO SECTION*/   
     main .primeiro-conteudo {
     background-image: linear-gradient(to right,  #7844D2, #7241C8, #431766, #29144D);
-} 
+    display: block;
+    
+    } 
 
-
-    /*PRIMEIRO CONTEUDO CONTAINER DO TEXTO*/
-     main .primeiro-conteudo .container-txt-botao {
+    /*PARTE DA BREVE INTRODUÇÃO DO TEXTO*/
+    main .primeiro-conteudo .container-txt-botao {
     width: 100%;
     }
 
-    /*PRIMEIRO CONTEUDO PARTE DO TEXTO*/
-   main .primeiro-conteudo .container-txt-botao > p {
+    /*TEXTO*/
+    main .primeiro-conteudo .container-txt-botao > p {
+    width: 100%;
+    line-height: 36px;
     color: white;
     font-family: var(--paragrafo);
     font-size: 1.5rem;
+    margin: 50px auto;
     }
 
-     /*PARTE DO BOTÃO*/
-     main .primeiro-conteudo .container-txt-botao > a {
-    padding: 12px;
-    background-color: white;
-    color: black;
-    border-radius: 50px;
-    font-weight: 600;
-    text-decoration: none;
-    font-family: var(--botão-fonte);
-     }
+    /*PARTE DO BOTÃO */
+    main .primeiro-conteudo .container-txt-botao > a {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    }
 
-     /*PARTE DA IMAGEM*/
-      main .primeiro-conteudo > .img  {
-       display: none;
-       width: 0%;
-      }
 
+    /*PARTE DO PRIMEIRO CONTEUDO IMG*/
+    main .primeiro-conteudo .img {
+    width: 0%;
+    }
+
+    /*IMAGEM*/
+    main .primeiro-conteudo .img > img {
+    display: none;
+    }
+
+    /*PARTE DO FOOTER (ENDEREÇO)*/
+    
 
  }
