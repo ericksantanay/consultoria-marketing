@@ -520,9 +520,14 @@ footer > p {
     }
 
     /*ENDEREÇO PARTE DO IFRAME*/
-main .container-endereco  article iframe {
+    main .container-endereco  article iframe {
     width: 96vw;
     height: 40vh;
-}
+    }
 
+    /*PARTE DOS ICONES*/
+    footer .icones > a > img {
+    padding: 5px;
+    
+    }
  }
