@@ -100,3 +100,26 @@ form {
 }
 
 /*BOTAO*/
+button {
+    background-color: var(--botao);
+    font-weight: 500;
+    font-family: var(--botão-fonte);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+button:hover {
+    background-color: var(--degradê-serviço3);
+}
+
+
+/*MEDIA QUERY*/
+@media screen and (max-width: 798px){
+    .text {
+        display: none;
+    }
+}
