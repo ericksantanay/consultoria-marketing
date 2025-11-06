@@ -19,26 +19,28 @@
         <p>Preencha o formulário e receba o contato de um especialista <br> para planejar o próximo passo do seu crescimento.</p>
       </div>
 
-    <form action="">
+    <form action="contato.php">
+        <!--PRIMEIRO-->
     <div class="container-inputs"> 
                 <input type="text" name="nome" id="inome" placeholder="Nome Completo" required>
     </div>
 
+        <!--SEGUNDO-->
     <div class="container-inputs">  
                 <input type="text" name="nomeEmpresa" id="inomEmpresa" placeholder="Nome da sua Empresa" required>
     </div>
 
-
+        <!--TERCEIRO-->
     <div class="container-inputs">    
                 <input type="email" name="email" id="iemail" placeholder="E-mail Corporativo" required>
     </div>
 
-
+        <!--QUARTO-->
     <div class="container-inputs">
                 <input type="tel" name="telefone" id="itelefone" placeholder="Número de Telefone" required>
     </div>
 
-
+        <!--QUINTO-->
     <div class="container-inputs">
         <select name="area" id="area" required>
             <option selected disabled value="">Selecione a área da sua empresa</option>
@@ -65,8 +67,9 @@
         </select>
     </div>
 
+                <!--SEXTO-->
         <div class="container-inputs">
-                <select name="faturamento" id="faturamento" required>
+            <select  name="faturamento" id="faturamento" required>
                 <option value="" selected disabled>Selecione o faturamento mensal</option>
                 <option value="ate10k">Até R$10.000</option>
                 <option value="10k-50k">De R$10.000 a R$50.000</option>
@@ -80,12 +83,15 @@
 
         </div>
 
+                <!--SETIMO-->
          <div class="container-inputs"> 
-               <textarea name="mensagem" id="mens" placeholder="Mensagem"></textarea>
+               <textarea  name="mensagem" id="mens" placeholder="Mensagem"></textarea>
         </div>
 
+
+            <!--BOTAO-->
         <div class="container-inputs">
-             <button type="submit">ENVIAR</button>
+             <button type="submit" onclick="Enviar()">ENVIAR</button>
         </div>
 
         </form>
