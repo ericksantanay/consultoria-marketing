@@ -1,5 +1,5 @@
-    
-    
+
+   //PARTE DO MENU HAMBURGEUR
     let r = document.getElementById('burguer-menu')
     // PARTE DO MENU
     function ClickMenu() {
@@ -12,5 +12,7 @@
        r.innerText = ('close')
     }
 }
+
+   // ESSA É A PARTE DE CONTATO, QUANDO O USUARIO ENTRA EM CONTATO
 
     
