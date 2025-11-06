@@ -8,30 +8,30 @@
 </head>
 <body>
     
-    <div class="container">
+<div class="container">
         <h1>FORMULARIO</h1>
         <form action="">
-        <div class="container-inputs"> 
-                <input type="text" name="nome" id="inome" placeholder="Nome" required>
-        </div>
+    <div class="container-inputs"> 
+                <input type="text" name="nome" id="inome" placeholder="Nome Completo" required>
+    </div>
 
-        <div class="container-inputs">  
-                <input type="text" name="nome" id="inome" placeholder="Nome da sua Empresa" required>
-        </div>
-
-
-        <div class="container-inputs">    
-                <input type="email" name="nome" id="inome" placeholder="E-mail Corporativo" required>
-        </div>
+    <div class="container-inputs">  
+                <input type="text" name="nomeEmpresa" id="inomEmpresa" placeholder="Nome da sua Empresa" required>
+    </div>
 
 
-        <div class="container-inputs">
-                <input type="tel" name="nome" id="inome" placeholder="Número de Telefone" required>
-        </div>
+    <div class="container-inputs">    
+                <input type="email" name="email" id="iemail" placeholder="E-mail Corporativo" required>
+    </div>
 
 
-        <div class="container-inputs">
-        <select name="area" id="area">
+    <div class="container-inputs">
+                <input type="tel" name="telefone" id="itelefone" placeholder="Número de Telefone" required>
+    </div>
+
+
+    <div class="container-inputs">
+        <select name="area" id="area" required>
             <option selected disabled value="">Selecione a área da sua empresa</option>
             <option value="tecnologia">Tecnologia da Informação</option>
             <option value="comercio">Comércio e Varejo</option>
@@ -54,14 +54,30 @@
             <option value="energia">Energia e Sustentabilidade</option>
             <option value="outros">Outros</option>
         </select>
-
-        </div>
+    </div>
 
         <div class="container-inputs">
-                <input type="text" name="nome" id="inome" placeholder="Nome" required>
+                <select name="faturamento" id="faturamento" required>
+                <option value="" selected disabled>Selecione o faturamento mensal</option>
+                <option value="ate10k">Até R$10.000</option>
+                <option value="10k-50k">De R$10.000 a R$50.000</option>
+                <option value="50k-100k">De R$50.000 a R$100.000</option>
+                <option value="100k-500k">De R$100.000 a R$500.000</option>
+                <option value="500k-1mi">De R$500.000 a R$1.000.000</option>
+                <option value="1mi-5mi">De R$1.000.000 a R$5.000.000</option>
+                <option value="5mi-10mi">De R$5.000.000 a R$10.000.000</option>
+                <option value="10mi+">Acima de R$10.000.000</option>
+            </select>
+
         </div>
+
+         <div class="container-inputs"> 
+               <textarea name="mensagem" id="mens" placeholder="Mensagem"></textarea>
+        </div>
+
+
         </form>
-    </div>
+</div>
 
 </body>
 </html>
