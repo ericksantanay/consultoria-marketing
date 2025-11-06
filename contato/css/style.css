@@ -1,0 +1,76 @@
+    @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Sanchez:ital@0;1&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Syriac+Western:wght@100..900&display=swap');
+
+
+
+    /*Seletor Geral*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+    /*ROOT COM FONTES E CORES*/
+:root {
+    /*CORES*/
+    --fundo: #040b21;
+    --botao: #733EB7;
+    --degradê1: #431766; /*Essa tambem é a cor de fundo dos cards do depoimento!*/
+    --degrade2: #7844D2;/*Essa cor tambem sera usada como cor de fundo nos cards do case de sucesso!!*/
+    --degrade3: #7241C8;
+    --degradê4: #29144D;
+    /*Agora é o degradê serviço*/
+    --degradê-serviço1: #FFFFFF;
+    --degradê-serviço2:#B109FF;
+    --degradê-serviço3: #3F0073; /*Essa cor tambem sera usada como cor de fundo, na parte case de sucesso!!*/
+    /*FONTES*/
+    --menu: "Public Sans", sans-serif;
+    --h1: "Momo Trust Display", sans-serif;
+    --h2:  "Kanit", sans-serif;
+    --paragrafo: "Sanchez", serif;
+    --paragrafo-do-depoimento: "Vollkorn", serif;
+    --botão-fonte: "Noto Sans Syriac Western", sans-serif;
+}
+
+/*BODY*/
+body {
+
+}
+
+/*DIV CONTAINER*/
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+     background-color: #f0f0f0;
+}
+
+/*H1*/
+h1 {
+    color: #7844D2;
+    font-family: var(--h2);
+    font-size: 2.3rem;
+    text-shadow: 2px 4px 10px  rgba(0, 0, 0, 0.296);
+}
+
+/*FORM*/
+form {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.container-inputs {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
