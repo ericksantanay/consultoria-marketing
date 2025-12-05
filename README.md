@@ -1,1 +1,1 @@
-https://ericksantanay.github.io/ConsultoriaDeMarketing02/
+https://ericksantanay.github.io/consultoria-marketing/
